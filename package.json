@@ -26,12 +26,13 @@
   "bugs": {
     "url": "http://github.com/luisfarzati/ng-bs-daterangepicker/issues"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "grunt": "latest",
-    "grunt-karma": "latest",
     "grunt-contrib-jshint": "latest",
-   "grunt-contrib-uglify": "latest"
+    "grunt-contrib-uglify": "latest",
+    "grunt-karma": "latest",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4"
   }
 }

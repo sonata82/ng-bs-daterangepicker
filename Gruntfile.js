@@ -18,11 +18,11 @@ module.exports = function(grunt) {
           autoWatch: true,
           singleRun: true,
           files: [
-            'src/components/jquery/jquery.js',
+            'src/components/jquery/dist/jquery.min.js',
             'src/components/angular/angular.js',
             'src/components/angular-mocks/angular-mocks.js',
             'src/components/bootstrap/dist/js/bootstrap.js',
-            'src/components/momentjs/min/moment.min.js',
+            'src/components/moment/min/moment.min.js',
             'src/components/bootstrap-daterangepicker/daterangepicker.js',
             'src/ng-bs-daterangepicker.js',
             'test/**/*.js']
