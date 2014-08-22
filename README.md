@@ -64,6 +64,8 @@ The result object `$scope.myDateRange` has a `startDate` and `endDate` propertie
 * `format`: mapped from `format` attribute;
 * `separator`: mapped from `separator` attribute.
 * `ranges`: mapped from `ranges` attribute. Can be a JSON string or scoped object. (check daterangepicker for formatting)
+* `opens`: mapped from `opens` attribute.
+* `buttonClasses`: mapped from `button-classes` attribute.
 
 Example with all above features:
 
@@ -76,7 +78,9 @@ Example with all above features:
 	limit="3 days"
 	format="L"
 	separator="/"
-	ranges="{'Special Range':{'startDate': '2013-09-2', 'endDate': '2013-09-5'}}">
+	ranges="{'Special Range':{'startDate': '2013-09-2', 'endDate': '2013-09-5'}}"
+    opens='left'
+    button-classes='btn-xs'>
 ```
 
 The `limit` attribute lets you specify a number and unit similarly as you would invoke `moment.duration()`.
